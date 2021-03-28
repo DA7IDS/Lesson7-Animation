@@ -1,0 +1,67 @@
+.tetris {
+    position: relative;
+}
+
+.tetris-background {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+.tetris-box {
+    position: absolute;
+    animation-name: tetris;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.tetris-box img {
+    width: 78%;
+}
+
+@keyframes tetris {
+    0% {
+        left: 51%;
+        top: -10%;
+    }
+    10% {
+        left: 51%;
+        top: 5%;
+    }
+    20% {
+        left: 51%;
+        top: 15%;
+    }
+    30% {
+        left: 51%;
+        top: 25%;
+    }
+    40% {
+        left: 51%;
+        top: 35%;
+    }
+    50% {
+        left: 51%;
+        top: 45%;
+    }
+    60% {
+        left: 51%;
+        top: 55%;
+    }
+    70% {
+        left: 51%;
+        top: 65%;
+    }
+    80% {
+        left: 51%;
+        top: 75%;
+    }
+    90% {
+        left: 51%;
+        top: 85%;
+    }
+    100% {
+        left: 51%;
+        top: 93%;
+    }
+}
